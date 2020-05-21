@@ -42,7 +42,7 @@ $jobs = $db->getAllRows('SELECT task.*, customer.*, car.*
 
     <link type="text/css" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link type="text/css" rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
-
+    <link type="text/css" rel="stylesheet" href="./assets/css/global.css">
 </header>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

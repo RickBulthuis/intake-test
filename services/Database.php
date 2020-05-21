@@ -12,7 +12,7 @@ class Database
     {
         //TODO; Als login niet werkt moet de app een waarschuwing weergeven en niet crashen
         try {
-            $this->db = new PDO('mysql:host=localhost:3306;dbname=intake', 'root', 'c0nn3ct');
+            $this->db = new PDO('mysql:host=db:3306;dbname=garage', 'root', '0588gb');
         } catch (Exception $e) {
             echo $e->getMessage();
             die;
